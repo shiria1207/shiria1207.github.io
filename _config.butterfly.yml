@@ -29,7 +29,7 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: ocean
+  theme: pale night
   macStyle: false
   # Code block height limit (unit: px)
   height_limit: false
@@ -59,7 +59,7 @@ favicon: /img/minori.png
 #头像
 avatar:
   img: /img/myblog_avator.png
-  effect: false
+  effect: true
 
 # Disable all banner images
 disable_top_img: false
@@ -68,7 +68,7 @@ disable_top_img: false
 default_top_img: /img/umi_back.png
 
 # The banner image of index page
-index_img: 
+index_img: /img/background-2.png
 
 # The banner image of archive page
 archive_img:
@@ -95,7 +95,7 @@ footer_img: transparent
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background: url(https://github.com/shiria1207/shiria1207.github.io/blob/main/source/img/background-2.png) center center
+background: 
 
 cover:
   # Disable the cover or not
@@ -395,7 +395,7 @@ darkmode:
   end:
 
 # Show scroll percent in scroll-to-top button
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -790,7 +790,7 @@ text_align_justify: false
 
 # Add a mask to the header and footer
 mask:
-  header: true
+  header: false
   footer: true
 
 # Loading Animation
@@ -894,12 +894,13 @@ click_heart:
 
 # Mouse click effects: words
 clickShowText:
-  enable: false
+  enable: true
   text:
     # - I
     # - LOVE
     # - YOU
-  fontSize: 15px
+    - ciallo~(∠・ω<)⌒★
+  fontSize: 20px
   random: false
   mobile: false
 
