@@ -95,7 +95,7 @@ footer_img: transparent
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background: url(https://shiria1207.github.io/img/background-1.png)
+background: url(https://shiria1207.github.io/img/background-2.png)
 
 cover:
   # Disable the cover or not
