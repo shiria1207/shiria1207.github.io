@@ -59,7 +59,7 @@ favicon: /img/minori.png
 #头像
 avatar:
   img: /img/myblog_avator.png
-  effect: true
+  effect: false
 
 # Disable all banner images
 disable_top_img: false
