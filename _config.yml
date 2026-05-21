@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: shiria's blog
-subtitle: ''
-description: ''
-keywords:
+title: "shiria's blog"
+subtitle: ''    #标签栏名称为titile - subtitle
+description: 'an InfoSecer and a baby ctf reverser'   #名字下面的介绍
+keywords: ''
 author: shiria
 language: zh-CN
-timezone: Asia/Shanghai
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

@@ -29,7 +29,7 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: light
+  theme: ocean
   macStyle: false
   # Code block height limit (unit: px)
   height_limit: false
@@ -53,20 +53,22 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+#网站图标
+favicon: /img/minori.png
 
+#头像
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/myblog_avator.png
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /img/umi_back.png
 
 # The banner image of index page
-index_img:
+index_img: 
 
 # The banner image of archive page
 archive_img:
@@ -88,12 +90,12 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: transparent
 
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background:
+background: url(https://shiria1207.github.io/img/background-1.png)
 
 cover:
   # Disable the cover or not
@@ -111,7 +113,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: /img/error-page.png
 
@@ -148,7 +150,7 @@ index_site_info_top:
 index_top_img_height:
 
 # The subtitle on homepage
-subtitle:
+subtitle: 
   enable: false
   # Typewriter Effect
   effect: true
@@ -174,7 +176,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 3
+index_layout: 5
 
 # Display the article introduction on homepage
 # 1: description
@@ -259,7 +261,7 @@ footer:
   nav:
   owner:
     enable: true
-    since: 2025
+    since: 2026
   # Copyright of theme and framework
   copyright:
     enable: true
@@ -289,10 +291,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/shiria1207
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: '该打总力战了'
   card_recent_post:
     enable: true
     # If set 0 will show all
