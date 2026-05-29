@@ -96,7 +96,8 @@ footer_img: transparent
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
 # background: blue
-background: /img/background-2.png
+background: https://raw.githubusercontent.com/shiria1207/shiria1207.github.io/refs/heads/main/source/img/background-2.png
+                
 
 cover:
   # Disable the cover or not
