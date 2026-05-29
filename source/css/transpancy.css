@@ -1,20 +1,40 @@
+/* 亮色模式 */
+
 /* 文章页背景 */
 .layout_post>#post {
-    /* 以下代表透明度为0.7 可以自行修改*/
     background: rgba(255,255,255,.8);
 }
- 
+
 /* 所有页面背景 */
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
-    /* 以下代表透明度为0.7 */
+#aside_content .card-widget,
+#recent-posts>.recent-post-item,
+.layout_page>div:first-child:not(.recent-posts),
+.layout_post>#page,
+.layout_post>#post,
+.read-mode .layout_post>#post {
     background: rgba(255,255,255,.8);
 }
-/*侧边卡片的透明度 */
+
+/* 侧边卡片透明度 */
 :root {
-  --card-bg: rgba(255, 255, 255, .8);
+    --card-bg: rgba(255,255,255,.8);
 }
+
+/* 暗色模式 */
+[data-theme="dark"] .layout_post>#post,
+[data-theme="dark"] #aside_content .card-widget,
+[data-theme="dark"] #recent-posts>.recent-post-item,
+[data-theme="dark"] .layout_page>div:first-child:not(.recent-posts),
+[data-theme="dark"] .layout_post>#page,
+[data-theme="dark"] .read-mode .layout_post>#post {
+    background: rgba(25,25,25,.8) !important;
+}
+
+[data-theme="dark"] {
+    --card-bg: rgba(25,25,25,.8);
+}
+
 /* 页脚透明 */
 #footer {
-	/* 以下代表透明度为0.7 */
-	background: rgba(255,255,255, .0);
+    background: rgba(255,255,255,0);
 }
