@@ -1,3 +1,6 @@
+# the announcement, place at this to modify it easily
+card_announcement_content: &card_announcement_content "铁甲蟹总力战已红温"
+
 # --------------------------------------
 # Hexo Butterfly Theme Configuration
 # If you have any questions, please refer to the documentation
@@ -22,6 +25,13 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
+  # 显示文字: /路径 || 图标名
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 # --------------------------------------
 # Code Blocks Settings
@@ -152,9 +162,9 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle: 
-  enable: false
+  enable: true
   # Typewriter Effect
-  effect: true
+  effect: false
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
@@ -168,6 +178,9 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - "wish u a good dream after leaving this blog"
+    # - "sentence2"
+    # - "sentence3"
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -295,7 +308,7 @@ aside:
       link: https://github.com/shiria1207
   card_announcement:
     enable: true
-    content: '该打大决战了'
+    content: *card_announcement_content
   card_recent_post:
     enable: true
     # If set 0 will show all

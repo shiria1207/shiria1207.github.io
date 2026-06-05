@@ -1,4 +1,5 @@
 nav#nav
+  // 左侧博客信息区域
   span#blog-info
     a.nav-site-title(href=url_for('/'))
       if theme.nav.logo
@@ -11,16 +12,22 @@ nav#nav
         span.site-name
           i.fa-solid.fa-circle-arrow-left
           span= '  ' + _p('post.back_to_home')
+  // 新增的导航菜单容器（居中布局关键）
+  #nav-menus-container
+    // 菜单主体部分
+    #menus
+      // 搜索按钮
+      if theme.search.use
+        #search-button
+          span.site-page.social-icon.search
+            i.fas.fa-search.fa-fw
+            span= ' ' + _p('search.title')
+      
+      // 菜单项
+      if theme.menu
+        != partial('includes/header/menu_item', {}, {cache: true})
 
-  #menus
-    if theme.search.use
-      #search-button
-        span.site-page.social-icon.search
-          i.fas.fa-search.fa-fw
-          span= ' ' + _p('search.title')
-    if theme.menu
-      != partial('includes/header/menu_item', {}, {cache: true})
-
-      #toggle-menu
-        span.site-page
-          i.fas.fa-bars.fa-fw
+    // 移动端汉堡菜单按钮（保持原位置）
+    #toggle-menu
+          span.site-page
+            i.fas.fa-bars.fa-fw

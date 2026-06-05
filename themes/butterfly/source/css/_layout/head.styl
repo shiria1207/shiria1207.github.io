@@ -291,6 +291,7 @@
   top: 0
   z-index: 90
   display: flex
+  justify-content: center  // 新增：让导航内容居中
   align-items: center
   padding: 0 36px
   width: 100%
@@ -306,7 +307,9 @@
     opacity: 1
 
   #blog-info
-    flex: 1
+    position: absolute  // 修改：将博客信息定位到左侧
+    left: 36px          // 左侧间距
+    flex: 0             // 取消 flex 拉伸
     color: var(--light-grey)
     @extend .limit-one-line
 
@@ -338,7 +341,10 @@
     font-weight: bold
 
   .menus_items
-    display: inline
+    // display: inline
+    display: inline-block  // 改为 inline-block 方便居中
+    margin: 0 auto         // 水平居中
+    text-align: center     // 子元素居中
 
     .menus_item
       position: relative

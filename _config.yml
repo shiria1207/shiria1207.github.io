@@ -4,7 +4,7 @@
 
 # Site
 title: "shiria's blog"
-subtitle: ''    #标签栏名称为titile - subtitle
+subtitle:     #主页title下的小字
 description: 'an InfoSec stu and a baby ctf reverser'   #名字下面的介绍
 keywords: ''
 author: shiria
