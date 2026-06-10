@@ -4,7 +4,7 @@
 
 # Site
 title: "shiria's blog"
-subtitle:     #主页title下的小字
+subtitle:     #网页标签页介绍 title - subtitle
 description: 'an InfoSec stu and a baby ctf reverser'   #名字下面的介绍
 keywords: ''
 author: shiria
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://shiria1207.github.io
+url: https://shiria.top
 permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
